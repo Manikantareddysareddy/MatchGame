@@ -1,0 +1,115 @@
+@media (min-width: 992px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .card-container1 {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    margin-left: 100px;
+    width: 90%;
+  }
+  .matched-image {
+    height: 60vh;
+
+    width: 90%;
+  }
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+  }
+  .ul-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-self: center;
+    width: 70%;
+    margin-right: 70px;
+    flex-wrap: wrap;
+  }
+  .ul-container2 {
+    margin: 0px;
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .card-container1 {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    margin-left: 100px;
+    width: 90%;
+  }
+  .matched-image {
+    height: 50vh;
+    width: 80%;
+  }
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+  }
+  .ul-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+    margin-right: 100px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 576px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .card-container1 {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 90%;
+  }
+  .matched-image {
+    height: 30vh;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .ul-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .ul-container2 {
+    margin: 0px;
+  }
+}
